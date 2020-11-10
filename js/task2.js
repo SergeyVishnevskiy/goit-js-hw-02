@@ -1,11 +1,11 @@
 'use strict'
 
 
+// let message = message.split(' ');
 
+const calculateEngravingPrice = (message = "".split(' '), pricePerWord = 0) => pricePerWord; // Write code in this line
 
-// const calculateEngravingPrice = (message = "", pricePerWord = 0) => pricePerWord; // Write code in this line
-
-// console.log(calculateEngravingPrice('Proin sociis natoque et magnis parturient montes mus', 10)); // 80
+console.log(calculateEngravingPrice('Proin sociis natoque et magnis parturient montes mus', 10)); // 80
 
 // console.log(calculateEngravingPrice('Proin sociis natoque et magnis parturient montes mus', 20)); // 160
 
