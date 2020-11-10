@@ -1,4 +1,4 @@
-'use strikt'
+'use strict'
 let result = '';
 
 const getItemsString = function(array) {
