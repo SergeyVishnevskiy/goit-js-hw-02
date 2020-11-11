@@ -4,9 +4,9 @@ function formatString (string, maxLength = 40) {
     let stringLength = string.length;
     // console.log(stringLength);;
     if (stringLength <= maxLength) {
-        console.log(string);
-    } else 
-    return
+        // console.log(string);
+    }
+    return string;
   }
   
   console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
@@ -21,3 +21,5 @@ function formatString (string, maxLength = 40) {
 //   const string = 'Curabitur ligula sapien, tincidunt non.'
 //   let stringLength = string.length;
 //   console.log(stringLength);
+ 
+
