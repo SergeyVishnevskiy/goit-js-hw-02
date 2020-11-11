@@ -1,12 +1,19 @@
 'use strict'
 
 
-let message = 'Proin sociis natoque et magnis parturient montes mus';
-let spl = message.split(' ');
-let len = spl.length;
-let price = len * 10;
+// let message = 'Proin sociis natoque et magnis parturient montes mus';
+// let spl = message.split(' ');
+// let len = spl.length;
+// let price = len * 10;
 
-// const calculateEngravingPrice = (message = "", pricePerWord = 0) => pricePerWord; // Write code in this line
+// console.log(message);
+// console.log(spl);
+// console.log(len);
+// console.log(price);
+
+
+
+const calculateEngravingPrice = (message = "", pricePerWord = 0) => pricePerWord; // Write code in this line
 
 // console.log(calculateEngravingPrice('Proin sociis natoque et magnis parturient montes mus', 10)); // 80
 
@@ -18,8 +25,4 @@ let price = len * 10;
 
 // console.log(calculateEngravingPrice('Uno', 100)); // 100
 
-console.log(message);
-console.log(spl);
-console.log(len);
-console.log(price);
 
