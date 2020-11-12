@@ -2,9 +2,9 @@
 
 function formatString (string, maxLength = 40) {
     let stringLength = string.length;
-    // console.log(stringLength);;
-    if (stringLength <= maxLength) {
-        // console.log(string);
+    console.log(stringLength);
+    if (stringLength > 20) {
+      console.log();
     }
     return string;
   }
@@ -22,4 +22,5 @@ function formatString (string, maxLength = 40) {
 //   let stringLength = string.length;
 //   console.log(stringLength);
  
+
 
