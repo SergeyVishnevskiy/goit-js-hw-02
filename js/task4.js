@@ -1,12 +1,8 @@
 'use strict'
 
 function formatString (string, maxLength = 40) {
-    let stringLength = string.length;
-    console.log(stringLength);
-    if (stringLength > 20) {
-      console.log();
-    }
-    return string;
+    
+  
   }
   
   console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
