@@ -33,4 +33,6 @@ console.log(calculateEngravingPrice('Donec orci lectus aliquam est magnis', 20))
 
 console.log(calculateEngravingPrice('Uno', 100)); // 100
 
-
+// const calculateEngravingPrice = (message = "", pricePerWord = 0) => {
+//     return  pricePerWord = message.split(' ').length *  pricePerWord;
+// }
